@@ -2,7 +2,7 @@
 This requires setting up a PosgreSQL database connection on AIVEN and obtaining a URI from this.
 You can then set up a table in your terminal once it's up and running:
 
-psql '<INSERT-YOUR-URI>'
+psql 'INSERT-YOUR-URI'
 
 defaultdb=> CREATE EXTENSION vector;
 
